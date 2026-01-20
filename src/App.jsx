@@ -14,7 +14,7 @@ function App() {
   return (
     <>
      <div>
-      {count.message}히히 됬지롱
+      {count.message}히히 됬지롱크크
      </div>
     </>
   )
