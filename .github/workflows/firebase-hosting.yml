@@ -23,8 +23,8 @@ jobs:
 
       - name: Set env vars
         run: |
-          echo "VITE_APP_TEST=${{ secrets.VITE_APP_TEST}}" >> .env
-          
+          echo "VITE_APP_TEST=${{ secrets.VITE_APP_TEST}}" >> .env.production
+
       - name: Build project
         run: npm run build
 
