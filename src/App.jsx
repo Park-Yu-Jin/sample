@@ -8,7 +8,7 @@ function App() {
   return (
     <>
      <div>
-      {count}히히 됬지롱크크123
+      {count}히히 됬지롱크크123 진짜 됬나?
       {Text}
      </div>
     </>
